@@ -1,0 +1,106 @@
+[
+	{ 	code: "Survialist", type: "positive", attributes: 
+			{ 
+			 
+			 "forageDropRate":0.5,
+			 "wildCropDropRate": 0.2
+			 "fruittreeDropRate2: 0.2
+			 
+			 
+			 } 
+			 // future add on cooked bush meat add extrat satiety //   
+			 
+	},
+			 
+
+	{ 	code: "Hunter", type: "positive", attributes:
+			{ 
+				"animalLootDropRate": 0.5,
+				"rangedWeaponsAcc": 0.5,
+				"rangedWeaponsSpeed": .025,
+				"animalSeekingRange": -0.6,
+				"animalHarvestingSpeed": 0.1
+			} 
+			 // future add to be only more bush meat and small hide //   
+	},
+			 
+ 	{ 	code: "Loot goblin", type: "positive", attributes: 
+			{ 
+				"vesselContentsDropRate": 0.35,
+				"rustyGearDropRate": 2,
+				"wholeVesselLootChance": 0.25
+			} 
+	},
+	{ 	code: "Miner", type: "positive", attributes: 
+			{ 
+				"oreDropRate": 0.5,
+				"miningSpeedMul": 1
+			} 
+	},
+	{ 	code: "Pick masters ", type: "positive", attributes: 
+			{ 
+				//add increase pick durabilty//
+				//add decreased axe and hammer durabilty//
+				// add special pick for trait//
+				
+			} 
+	},
+	{	code: "pack mule",	type: "positive",	attributes: 
+			{
+			
+			//add speacial bag that gives extra slots//			
+			
+			}	
+	},
+	
+	{	code: "Treesurgen",	type: "positive",	attributes: 
+			{
+			"woodDropRate": 0.10,
+			"treeseedDropRate": 2			
+			}	
+	},
+			
+	
+	
+	
+	
+	
+	
+	
+	{	code: "Light packer",	type: "negative",	attributes: 
+	
+			{
+			//take add reduced invent slots// 	
+			}
+	}
+	 {	code: "Energetic",	type: "negative",	attributes: 
+	
+			{"hungerrate": 0.25
+			 	
+			}
+	}
+	{	code: "Scared of the dark ",	type: "negative",	attributes: 
+	
+			{"oreDropRate": -0.25,
+			 "miningSpeedMul": -0.25"
+			 	//Needs better name//
+			}
+	}
+	{ 	code: "Une Petit garson ", type: "Negative", attributes: 
+			{ 
+				"armorWalkSpeedAffectedness": 0.1,
+				"walkspeed": -0.5
+				//make charcater smaller//
+			} 
+	},
+	{ 	code: "Dumber than dumb ", type: "Negative", attributes: 
+			{ 
+				"animalSeekingRange": 0.2,
+				"vesselContentsDropRate": -0.25,
+				"forageDropRate": -0.2,
+				"wildCropDropRate": -0.2,
+				"animalHarvestingSpeed": 0.1
+				//not sure if all are relative thoughts//
+			} 
+	},
+]
